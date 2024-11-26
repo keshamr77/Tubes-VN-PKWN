@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 20, in script
+    show b default at Position(xpos=-0,5, ypos=-1) with dissolve
+SyntaxError: positional argument follows keyword argument (game/script.rpy, line 20)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 20, in script
+    show b default at Position(xpos=-0,5, ypos=-1) with dissolve
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\ast.py", line 1111, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\ast.py", line 1070, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\ast.py", line 1070, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\python.py", line 1207, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\python.py", line 1144, in py_compile
+    raise e
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\python.py", line 1081, in py_compile
+    raise orig_e
+  File "C:\Renpy\renpy-8.3.3-sdk\renpy\python.py", line 1073, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: positional argument follows keyword argument (game/script.rpy, line 20)
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.3.24111502
+HAMgaming 1.0
+Tue Nov 26 10:42:22 2024

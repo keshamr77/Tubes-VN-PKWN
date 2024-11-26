@@ -1,0 +1,34 @@
+2024-11-26 03:13:40 UTC
+Windows-10-10.0.22631
+Ren'Py 8.3.3.24111502
+
+Early init took 0.07s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+INFO:renpy_warp_service:service thread started. periodically scanning ports for warp server
+
+The label start is defined twice, at File "game/projectHAM.rpyc", line 12:
+
+and File "game/scripts/projectHAM.rpy", line 13:
+label start:
+
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+INFO:renpy_warp_service:connected to renpy warp socket server on :40111
+nvdrs: Disabled thread optimizations.
+Interface start took 0.73s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 556.13'
+Display Info: None
+Screen sizes: virtual=(800, 600) physical=(1000, 750) drawable=(1000, 750)
+Maximum texture size: 4096x4096
+INFO:renpy_warp_service:socket service on :40111 exited
+INFO:renpy_warp_service:closing websocket connection :40111
